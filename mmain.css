@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --main-color:red;
+}
+
+.contact {
+  padding: 30px;
+}
+
+.header {
+  color: green;
+}
+
+.footer {
+  background-color: black;
+}
+
+.copyright {
+  background-color: black;
+}
+
+.sidebar {
+  background-color: orange;
+  color: blue;
+}
+
+@media (max-width:757px) {
+  .sidebar {
+    padding: 20px;
+  }
+}
+.parent {
+  font-weight: bold;
+}
+.parent .child {
+  font-size: 20px;
+}
+.parent .child .grand-child {
+  font-size: 15px;
+}
+
+.box {
+  font-size: 20px;
+  font-size: 15px;
+  font-weight: 15px;
+  padding: 10px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.arrow-div, .box, .article, .ada {
+  background-color: white;
+  padding: 15px;
+  border: 1px solid #ccc;
+  font-size: 20px;
+}
+
+.ada {
+  color: red;
+}
+
+.article {
+  font-size: 22px;
+ 
+  color: green;
+}
+
+.page {
+  background-color: #444;
+  color: white;
+}
+
+.box {
+  border-radius: 6px;
+}
+
+.arrow-div {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 300px;
+  position: relative;
+  margin: 50px auto;
+}
+.arrow-div::before {
+  content: "";
+  position: absolute;
+  border: 20px solid transparent;
+  top: -40px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-bottom-color: red;
+  top: -40px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-bottom-color: red;
+}/*# sourceMappingURL=mmain.css.map */
